@@ -24,10 +24,11 @@
 	}
 	.column {
 		float: left;
-		width: 50%;
+		width: 46%;
 		margin-bottom: 2%;
+		margin-right: 4%;
 	}
-	.wrapper:after {
+	.row:after {
 		content: '';
 		display: table;
 		clear: both;
@@ -713,7 +714,6 @@
 	#main {
 		position: relative;
 		max-width: 100%;
-		min-width: 27em;
 		padding: 4.5em 3em 3em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
@@ -862,6 +862,6 @@
 
 		}
 
-		body.is-ie #wrapper {
+		body.is-ie .wrapper {
 			height: 100%;
 		}
